@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Data Analysis</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f6f8;
+            margin: 0;
+        }
+
+        header {
+            background-color: #222;
+            color: white;
+            padding: 20px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .container {
+            margin-top: 30px;
+        }
+
+        img {
+            width: 85%;
+            max-width: 900px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+
+        .text {
+            width: 80%;
+            margin: 20px auto;
+            font-size: 18px;
+            color: #333;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 15px;
+            background-color: #222;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🍽️ Restaurant Data Analysis</h1>
+</header>
+
+<div class="container">
+
+    <h2>📊 Combined Visualization</h2>
+
+    <!-- IMPORTANT LINE -->
+    <img src="images/plot1.png" alt="Data Analysis Plot">
+
+    <div class="text">
+        <p>This project analyzes tipping behavior using the restaurant dataset.</p>
+
+        <p>
+        Key insights:
+        <br>• Higher bills → higher tips  
+        <br>• Dinner tips are higher than lunch  
+        <br>• Weekend tips are higher  
+        <br>• Group size influences tips  
+        </p>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Krishna | Data Analysis Project</p>
+</footer>
+
+</body>
+</html>
