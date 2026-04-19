@@ -49,5 +49,6 @@ plt.figure(figsize=(6,4))
 sns.heatmap(tips.corr(numeric_only=True), annot=True)
 plt.title("Correlation Heatmap")
 plt.show()
+plt.savefig("images/plot1.png")
 # Step 13: Conclusion message
 print("\nData analysis completed successfully.")
